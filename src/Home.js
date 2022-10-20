@@ -92,10 +92,14 @@ export default function Home() {
             }}
           />
         </div>
-        <br />
-        <br />
-        <br />
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gridColumn: "span 2 / span 2",
+            marginTop: "10px"
+          }}
+        >
           <Button
             style={{ background: "teal", color: "white" }}
             variant="contained"
